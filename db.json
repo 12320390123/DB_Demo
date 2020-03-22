@@ -1,0 +1,28 @@
+{
+    "BookCategory":[
+        {"CategoryID": "CAT001", "CategoryName": "Romance", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"},
+        {"CategoryID": "CAT002", "CategoryName": "Comedy", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg" },
+        {"CategoryID": "CAT003", "CategoryName": "Thriller", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}
+    ],
+    "Book":[
+        {"BookID": "BO001", "CategoryID": "CAT001", "AuthorID": "AU01", "BookName": "Book01", "ContentID": "CON001"},
+        {"BookID": "BO002", "CategoryID": "CAT001", "AuthorID": "AU03", "BookName": "Book02", "ContentID": "CON002"},
+        {"BookID": "BO003", "CategoryID": "CAT002", "AuthorID": "AU02", "BookName": "Book03", "ContentID": "CON003"},
+        {"BookID": "BO004", "CategoryID": "CAT003", "AuthorID": "AU01", "BookName": "Book04", "ContentID": "CON004"},
+        {"BookID": "BO005", "CategoryID": "CAT003", "AuthorID": "AU02", "BookName": "Book05", "ContentID": "CON005"},
+        {"BookID": "BO006", "CategoryID": "CAT003", "AuthorID": "AU03", "BookName": "Book06", "ContentID": "CON006"}
+    ],
+    "Author":[
+        {"AuthorID": "AU01", "AuthorName": "Name Of Author 1"},
+        {"AuthorID": "AU02", "AuthorName": "Name Of Author 2"},
+        {"AuthorID": "AU03", "AuthorName": "Name Of Author 3"}
+    ],
+    "Content": [
+        {"ContentID": "CON001", "Content": "Book's Content has ID Content: CON001"},
+        {"ContentID": "CON002", "Content": "Book's Content has ID Content: CON002"},
+        {"ContentID": "CON003", "Content": "Book's Content has ID Content: CON003"},
+        {"ContentID": "CON004", "Content": "Book's Content has ID Content: CON004"},
+        {"ContentID": "CON005", "Content": "Book's Content has ID Content: CON005"},
+        {"ContentID": "CON006", "Content": "Book's Content has ID Content: CON006"}
+    ]
+}
