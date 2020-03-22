@@ -1,8 +1,8 @@
 {
     "BookCategory":[
-        {"CategoryID": "CAT001", "CategoryName": "Romance", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"},
-        {"CategoryID": "CAT002", "CategoryName": "Comedy", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg" },
-        {"CategoryID": "CAT003", "CategoryName": "Thriller", "link": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}
+        {"CategoryID": "CAT001", "CategoryName": "Romance", "images": [{"url": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}] },
+        {"CategoryID": "CAT002", "CategoryName": "Comedy", "images": [{"url": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}] },
+        {"CategoryID": "CAT003", "CategoryName": "Thriller", "images": [{"url": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}]}
     ],
     "Book":[
         {"BookID": "BO001", "CategoryID": "CAT001", "AuthorID": "AU01", "BookName": "Book01", "ContentID": "CON001"},
